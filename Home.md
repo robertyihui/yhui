@@ -9,18 +9,14 @@ This MultiWindowAndroid project is basing on Android KitKat 4.4, which support t
 ## Procedure
 ### For user
 1. This patch only for KitKat 4.4, so please apply it in a clean branch.
-In the root of AOSP:
-
+In the root of AOSP:<br/>
 $ git apply xxx.patch
 
-2. Source and lunch, choose the "aosp_flo-userdebug" for Nexus 7 2013 WIFI:
-
+2. Source and lunch, choose the "aosp_flo-userdebug" for Nexus 7 2013 WIFI:<br/>
 $ source build/envsetup.sh
-
 $ lunch
 
-3. Build:
-
+3. Build:<br/>
 $ make -j8 otapackage
 
 4. Flash your device
@@ -28,11 +24,9 @@ $ make -j8 otapackage
 ### For developer
 You'd better git init in the root of AOSP, and git add the frameworks/ and packages/, To generate a patch:
 
-1. Update the API.
-
+1. Update the API:<br/>
 $ make update-api
 
-2. Git diff a patch:
-
+2. Git diff a patch:<br/>
 $ git diff INITIAL_COMMIT_ID --binary > xxx.patch 
 
