@@ -22,7 +22,7 @@ $ make -j8 otapackage
 4. Flash your device
 
 ### For developer
-You'd better git init in the root of AOSP, and git add the frameworks/ and packages/, To generate a patch:
+You'd better git init in the root of AOSP, and git add the build/ frameworks/ packages/, To generate a patch:
 
 1. Update the API:<br/>
 $ make update-api
