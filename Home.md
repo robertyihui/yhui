@@ -13,7 +13,7 @@ In the root of AOSP:<br/>
 $ git apply xxx.patch
 
 2. Source and lunch, choose the "aosp_flo-userdebug" for Nexus 7 2013 WIFI:<br/>
-$ source build/envsetup.sh
+$ source build/envsetup.sh<br/>
 $ lunch
 
 3. Build:<br/>
