@@ -24,9 +24,6 @@ $ make -j8 otapackage
 ### For developer
 You'd better git init in the root of AOSP, and git add the build/ frameworks/ packages/, To generate a patch:
 
-1. Update the API:<br/>
-$ make update-api
-
-2. Git diff a patch:<br/>
+1. Git diff a patch:<br/>
 $ git diff INITIAL_COMMIT_ID --binary > xxx.patch 
 
