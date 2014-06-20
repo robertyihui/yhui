@@ -6,6 +6,8 @@ This MultiWindowAndroid project is basing on Android KitKat 4.4, which support t
 
 ![](http://img.my.csdn.net/uploads/201406/17/1403015499_8171.png)
 
+Demo Vedio: http://v.youku.com/v_show/id_XNzI4ODg4NTM2.html
+
 ## Procedure
 ### For user
 1. This patch only for KitKat 4.4, so please apply it in a clean branch.
