@@ -11,7 +11,7 @@ Demo Vedio: http://v.youku.com/v_show/id_XNzI4ODg4NTM2.html
 ## Procedure
 ### For user
 1. This patch only for KitKat 4.4 (Tag: android-4.4_r1), so please apply it in a clean branch.
-<pre class="plaincode">$ git reset --hard android-4.4_r1</pre>
+<strong>$ git reset --hard android-4.4_r1</strong>
 
 2. Watch and check is there any error brfore apply the patch file:
 <pre class="plaincode">$ git apply --stat /the/directory/of/xxx.patch</pre>
