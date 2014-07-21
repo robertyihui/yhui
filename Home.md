@@ -10,24 +10,25 @@ Demo vedio: http://v.youku.com/v_show/id_XNzI4ODg4NTM2.html
 
 ## Procedure
 ### For user
-0.1. This patch only for KitKat 4.4 (Tag: android-4.4_r1), so please apply it in a clean branch.
+1. This patch only for KitKat 4.4 (Tag: android-4.4_r1), so please apply it in a clean branch.
 <pre class="plaincode">$ git reset --hard android-4.4_r1</pre>
 
-0.2. Watch and check is there any error brfore apply the patch file 
+2. Watch and check is there any error brfore apply the patch file 
 <pre class="plaincode">$ git apply --stat /the/directory/of/xxx.patch</pre>
 <pre class="plaincode">$ git apply --check /the/directory/of/xxx.patch</pre>
+If there's any error, you cannot apply simply, recheck step 1 above.
 
-1. In the root of AOSP, apply the patch file
+3. In the root of AOSP, apply the patch file
 <pre class="plaincode">$ git apply xxx.patch</pre>
 
-2. Source and lunch, choose the "aosp_flo-userdebug" for Nexus 7 2013 WIFI:
+4. Source and lunch, choose the "aosp_flo-userdebug" for Nexus 7 2013 WIFI:
 <pre class="plaincode">$ source build/envsetup.sh</pre>
 <pre class="plaincode">$ lunch</pre>
 
-3. Build:
+5. Build:
 <pre class="plaincode">$ make -j8 otapackage</pre>
 
-4. Flash your device
+6. Flash your device
 
 ### For developer
 You'd better git init in the root of AOSP, and git add the build/ frameworks/ packages/, To generate a patch:
