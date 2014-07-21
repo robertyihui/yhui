@@ -10,6 +10,7 @@ Demo vedio: http://v.youku.com/v_show/id_XNzI4ODg4NTM2.html
 
 ## Procedure
 ### For user
+0.1. 
 1. This patch only for KitKat 4.4, so please apply it in a clean branch.
 In the root of AOSP:<br/>
 $ git apply xxx.patch
