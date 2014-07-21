@@ -10,10 +10,10 @@ Demo vedio: http://v.youku.com/v_show/id_XNzI4ODg4NTM2.html
 
 ## Procedure
 ### For user
-1. This patch only for KitKat 4.4 (Tag: android-4.4_r1), so please apply it in a clean branch.<br/>
-<code>$ git reset --hard android-4.4_r1</code>
+0.1. This patch only for KitKat 4.4 (Tag: android-4.4_r1), so please apply it in a clean branch.<br/>
+$ git reset --hard android-4.4_r1
 
-In the root of AOSP:<br/>
+1. In the root of AOSP:<br/>
 $ git apply xxx.patch
 
 2. Source and lunch, choose the "aosp_flo-userdebug" for Nexus 7 2013 WIFI:<br/>
