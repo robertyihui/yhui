@@ -13,6 +13,10 @@ Demo vedio: http://v.youku.com/v_show/id_XNzI4ODg4NTM2.html
 0.1. This patch only for KitKat 4.4 (Tag: android-4.4_r1), so please apply it in a clean branch.<br/>
 $ git reset --hard android-4.4_r1
 
+0.2. Watch and check is there any error brfore apply the patch file 
+<pre class="plaincode">git apply --stat /the/directory/xxx.patch</pre>
+<pre class="plaincode">git apply --check /the/directory/of/xxx.patch</pre>
+
 1. In the root of AOSP:<br/>
 $ git apply xxx.patch
 
