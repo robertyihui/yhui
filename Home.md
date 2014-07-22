@@ -18,12 +18,12 @@ If there is no error, skip step 2.
 2. This patch only for KitKat 4.4 (Tag: android-4.4_r1), so please apply it in a clean branch.
 If there's any error in step 1, you cannot apply simply.
 for example, you may got this information:
-<code>
+<pre class="plaincode">
 error: patch failed: build/target/product/sdk.mk:62
 error: build/target/product/sdk.mk: patch does not apply
 error: patch failed: frameworks/base/core/java/android/app/ActivityThread.java:558
 error: frameworks/base/core/java/android/app/ActivityThread.java: patch does not apply
-</code>
+</pre>
 Then, you can reset the git repo build/ and /frameworks/base/ to android-4.4_r1
 <pre class="plaincode">$ cd base/</pre>
 <pre class="plaincode">$ git reset --hard android-4.4_r1</pre>
